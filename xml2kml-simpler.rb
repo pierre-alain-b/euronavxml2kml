@@ -24,11 +24,11 @@ kml_header="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <kml xmlns=\"http://www.opengis.net/kml/2.2\">
 <Document>
 <name>Paths</name>
-<description>iAero / Apibox System Flight Path</description>
+<description>Export for EPL</description>
 <Style id=\"yellowLineGreenPoly\"><LineStyle><color>7f00ffff</color><width>4</width></LineStyle><PolyStyle><color>7f00ff00</color></PolyStyle></Style>
 <Placemark>
 <name>Absolute Extruded</name>
-<description>Transparent green wall with yellow outlines</description>
+<description>Trajectory of flight</description>
 <styleUrl>#yellowLineGreenPoly</styleUrl>
 <LineString>
 <extrude>1</extrude>
